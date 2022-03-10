@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_85dfc69c58e04b538cd57adf38d6f169 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_85dfc69c58e04b538cd57adf38d6f169" ></div>
+        
+</body>
+<script>    
+    
+            var map_85dfc69c58e04b538cd57adf38d6f169 = L.map(
+                "map_85dfc69c58e04b538cd57adf38d6f169",
+                {
+                    center: [226293.21581605257, 207527.56335368418],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_85dfc69c58e04b538cd57adf38d6f169);
+
+            
+
+        
+    
+            var tile_layer_75b44425fd7a4afeb58eb3d50d9850df = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_85dfc69c58e04b538cd57adf38d6f169);
+        
+    
+            var marker_fc6f241b5b764c99bbc4269f14102334 = L.marker(
+                [248539.8285, 198821.7809],
+                {}
+            ).addTo(map_85dfc69c58e04b538cd57adf38d6f169);
+        
+    
+        var popup_dda6a07c45d54f2a945bf78147504a15 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_425e40e6447440aaab23ac4dde2fde38 = $(`<div id="html_425e40e6447440aaab23ac4dde2fde38" style="width: 100.0%; height: 100.0%;">Midland Regional Hospital Portlaoise</div>`)[0];
+            popup_dda6a07c45d54f2a945bf78147504a15.setContent(html_425e40e6447440aaab23ac4dde2fde38);
+        
+
+        marker_fc6f241b5b764c99bbc4269f14102334.bindPopup(popup_dda6a07c45d54f2a945bf78147504a15)
+        ;
+
+        
+    
+    
+            var marker_3e89fa9e005b40f7a9e629a789104c7b = L.marker(
+                [233923.1455, 225877.1039],
+                {}
+            ).addTo(map_85dfc69c58e04b538cd57adf38d6f169);
+        
+    
+        var popup_4099da931f3c4fb480a5194dc5c4abb6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e85266c7b2f4063953b4c7ee9b85ff5 = $(`<div id="html_5e85266c7b2f4063953b4c7ee9b85ff5" style="width: 100.0%; height: 100.0%;">Midland Regional Hospital Tullamore</div>`)[0];
+            popup_4099da931f3c4fb480a5194dc5c4abb6.setContent(html_5e85266c7b2f4063953b4c7ee9b85ff5);
+        
+
+        marker_3e89fa9e005b40f7a9e629a789104c7b.bindPopup(popup_4099da931f3c4fb480a5194dc5c4abb6)
+        ;
+
+        
+    
+    
+            var marker_49e72bb675a743b4b09a13fe71010f09 = L.marker(
+                [313433.6436, 233460.873],
+                {}
+            ).addTo(map_85dfc69c58e04b538cd57adf38d6f169);
+        
+    
+        var popup_80784ec6785442f0a83491b527690ce2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e4c67de73f534550b6c99b314478e6f7 = $(`<div id="html_e4c67de73f534550b6c99b314478e6f7" style="width: 100.0%; height: 100.0%;">St James's Hospital Dublin</div>`)[0];
+            popup_80784ec6785442f0a83491b527690ce2.setContent(html_e4c67de73f534550b6c99b314478e6f7);
+        
+
+        marker_49e72bb675a743b4b09a13fe71010f09.bindPopup(popup_80784ec6785442f0a83491b527690ce2)
+        ;
+
+        
+    
+    
+            var marker_f50c161f0e444a6098946b15b3d670d0 = L.marker(
+                [289392.2816, 218724.4999],
+                {}
+            ).addTo(map_85dfc69c58e04b538cd57adf38d6f169);
+        
+    
+        var popup_0204f30a08264579a2afc3ac2e70cb15 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4323e057784a4978bc0bdae46d60fd1a = $(`<div id="html_4323e057784a4978bc0bdae46d60fd1a" style="width: 100.0%; height: 100.0%;">Naas General Hospital</div>`)[0];
+            popup_0204f30a08264579a2afc3ac2e70cb15.setContent(html_4323e057784a4978bc0bdae46d60fd1a);
+        
+
+        marker_f50c161f0e444a6098946b15b3d670d0.bindPopup(popup_0204f30a08264579a2afc3ac2e70cb15)
+        ;
+
+        
+    
+    
+            var marker_840e569bb46240428655179d18c337ae = L.marker(
+                [308195.7986, 227903.5429],
+                {}
+            ).addTo(map_85dfc69c58e04b538cd57adf38d6f169);
+        
+    
+        var popup_617bcdb6dc3d49e4b5e0ff85ac4c195a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ed12733c8554b0c94c74a8b52ce0daa = $(`<div id="html_0ed12733c8554b0c94c74a8b52ce0daa" style="width: 100.0%; height: 100.0%;">The Adelaide & Meath Hospital (Tallaght Hospital) Dublin</div>`)[0];
+            popup_617bcdb6dc3d49e4b5e0ff85ac4c195a.setContent(html_0ed12733c8554b0c94c74a8b52ce0daa);
+        
+
+        marker_840e569bb46240428655179d18c337ae.bindPopup(popup_617bcdb6dc3d49e4b5e0ff85ac4c195a)
+        ;
+
+        
+    
+    
+            var marker_968edf609dfd4a5f8125fc06c2875a0f = L.marker(
+                [241108.2195, 305926.719],
+                {}
+            ).addTo(map_85dfc69c58e04b538cd57adf38d6f169);
+        
+    
+        var popup_a272c522f9fb491c9b26f8d65cc4861f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d15d278633274ef49208498aecb30133 = $(`<div id="html_d15d278633274ef49208498aecb30133" style="width: 100.0%; height: 100.0%;">Cavan General Hospital</div>`)[0];
+            popup_a272c522f9fb491c9b26f8d65cc4861f.setContent(html_d15d278633274ef49208498aecb30133);
+        
+
+        marker_968edf609dfd4a5f8125fc06c2875a0f.bindPopup(popup_a272c522f9fb491c9b26f8d65cc4861f)
+        ;
+
+        
+    
+    
+            var marker_e03b5d8d4cb445549898db89521df350 = L.marker(
+                [304933.9162, 305486.799],
+                {}
+            ).addTo(map_85dfc69c58e04b538cd57adf38d6f169);
+        
+    
+        var popup_30eb1165eb864d2fb48f079af10e488c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1bbfa89c6f17404abd1062937cddd759 = $(`<div id="html_1bbfa89c6f17404abd1062937cddd759" style="width: 100.0%; height: 100.0%;">Louth County Hospital Dundalk</div>`)[0];
+            popup_30eb1165eb864d2fb48f079af10e488c.setContent(html_1bbfa89c6f17404abd1062937cddd759);
+        
+
+        marker_e03b5d8d4cb445549898db89521df350.bindPopup(popup_30eb1165eb864d2fb48f079af10e488c)
+        ;
+
+        
+    
+    
+            var marker_bdd456e340a64c79a9c5894618eb32ab = L.marker(
+                [266828.5975, 333908.8821],
+                {}
+            ).addTo(map_85dfc69c58e04b538cd57adf38d6f169);
+        
+    
+        var popup_b66b397e72e84c50832b33a500da3256 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_537da943b11e4c639a83b2a0a78b1f55 = $(`<div id="html_537da943b11e4c639a83b2a0a78b1f55" style="width: 100.0%; height: 100.0%;">Monaghan Hospital</div>`)[0];
+            popup_b66b397e72e84c50832b33a500da3256.setContent(html_537da943b11e4c639a83b2a0a78b1f55);
+        
+
+        marker_bdd456e340a64c79a9c5894618eb32ab.bindPopup(popup_b66b397e72e84c50832b33a500da3256)
+        ;
+
+        
+    
+    
+            var marker_2735eb60cc984ed489ec93b1afb3546f = L.marker(
+                [308563.4386, 276047.75],
+                {}
+            ).addTo(map_85dfc69c58e04b538cd57adf38d6f169);
+        
+    
+        var popup_56fb152c750c404fabee93519028ff0f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_676a198f94f64c149039fdb3eea3ae9f = $(`<div id="html_676a198f94f64c149039fdb3eea3ae9f" style="width: 100.0%; height: 100.0%;">Our Lady of Lourdes Hospital Drogheda</div>`)[0];
+            popup_56fb152c750c404fabee93519028ff0f.setContent(html_676a198f94f64c149039fdb3eea3ae9f);
+        
+
+        marker_2735eb60cc984ed489ec93b1afb3546f.bindPopup(popup_56fb152c750c404fabee93519028ff0f)
+        ;
+
+        
+    
+    
+            var marker_5372f371ae7e4e678ea690a607b99217 = L.marker(
+                [308545.2076, 238839.27],
+                {}
+            ).addTo(map_85dfc69c58e04b538cd57adf38d6f169);
+        
+    
+        var popup_eb650dc1feab44f58054ddc9e75eb18e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ae8120189fa4f10b601f97b19f8282f = $(`<div id="html_7ae8120189fa4f10b601f97b19f8282f" style="width: 100.0%; height: 100.0%;">Connolly Hospital Dublin</div>`)[0];
+            popup_eb650dc1feab44f58054ddc9e75eb18e.setContent(html_7ae8120189fa4f10b601f97b19f8282f);
+        
+
+        marker_5372f371ae7e4e678ea690a607b99217.bindPopup(popup_eb650dc1feab44f58054ddc9e75eb18e)
+        ;
+
+        
+    
+    
+            var marker_b0e114063704453b8948c6ee6c1676c2 = L.marker(
+                [318014.4006, 239461.7999],
+                {}
+            ).addTo(map_85dfc69c58e04b538cd57adf38d6f169);
+        
+    
+        var popup_817697746b9e41ca8037f18041525112 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ff1c1c2e8274e58a91eca77bbd5302b = $(`<div id="html_6ff1c1c2e8274e58a91eca77bbd5302b" style="width: 100.0%; height: 100.0%;">Beaumont Hospital</div>`)[0];
+            popup_817697746b9e41ca8037f18041525112.setContent(html_6ff1c1c2e8274e58a91eca77bbd5302b);
+        
+
+        marker_b0e114063704453b8948c6ee6c1676c2.bindPopup(popup_817697746b9e41ca8037f18041525112)
+        ;
+
+        
+    
+    
+            var marker_dade185a0e6e49e5b1b4acfc47b029e2 = L.marker(
+                [249849.5305, 157441.6319],
+                {}
+            ).addTo(map_85dfc69c58e04b538cd57adf38d6f169);
+        
+    
+        var popup_725711851b204ce1ac2ecb860cb7c9a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3c74b4e955804766a68857fb9b6caee8 = $(`<div id="html_3c74b4e955804766a68857fb9b6caee8" style="width: 100.0%; height: 100.0%;">St Luke's General Hospital Kilkenny</div>`)[0];
+            popup_725711851b204ce1ac2ecb860cb7c9a7.setContent(html_3c74b4e955804766a68857fb9b6caee8);
+        
+
+        marker_dade185a0e6e49e5b1b4acfc47b029e2.bindPopup(popup_725711851b204ce1ac2ecb860cb7c9a7)
+        ;
+
+        
+    
+    
+            var marker_c4b922ff7ff74b75bbdf6a71b78c90bb = L.marker(
+                [303401.8406, 122304.6848],
+                {}
+            ).addTo(map_85dfc69c58e04b538cd57adf38d6f169);
+        
+    
+        var popup_547b8f0cfb704368bde761686de9122a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b06f56f7d48a45e587ab859ee28f23e1 = $(`<div id="html_b06f56f7d48a45e587ab859ee28f23e1" style="width: 100.0%; height: 100.0%;">Wexford General Hospital</div>`)[0];
+            popup_547b8f0cfb704368bde761686de9122a.setContent(html_b06f56f7d48a45e587ab859ee28f23e1);
+        
+
+        marker_c4b922ff7ff74b75bbdf6a71b78c90bb.bindPopup(popup_547b8f0cfb704368bde761686de9122a)
+        ;
+
+        
+    
+    
+            var marker_3bfdccaa84664ac8b48463d856c8da2e = L.marker(
+                [286123.9386, 267517.563],
+                {}
+            ).addTo(map_85dfc69c58e04b538cd57adf38d6f169);
+        
+    
+        var popup_ba36ec0a49dd424db70cc6be0bf10acd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f48018f2596d4caf87cc9b251c456c1f = $(`<div id="html_f48018f2596d4caf87cc9b251c456c1f" style="width: 100.0%; height: 100.0%;">Our Lady's Hospital Navan</div>`)[0];
+            popup_ba36ec0a49dd424db70cc6be0bf10acd.setContent(html_f48018f2596d4caf87cc9b251c456c1f);
+        
+
+        marker_3bfdccaa84664ac8b48463d856c8da2e.bindPopup(popup_ba36ec0a49dd424db70cc6be0bf10acd)
+        ;
+
+        
+    
+    
+            var marker_087dc5d7a1ea44b6b49fdbc9f41812f7 = L.marker(
+                [243131.5005, 254000.7],
+                {}
+            ).addTo(map_85dfc69c58e04b538cd57adf38d6f169);
+        
+    
+        var popup_bb2e45a673614c4fb917a1233edf62b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dfded1ed22b84a519afdd20c25a4cdd0 = $(`<div id="html_dfded1ed22b84a519afdd20c25a4cdd0" style="width: 100.0%; height: 100.0%;">Midland Regional Hospital Mullingar</div>`)[0];
+            popup_bb2e45a673614c4fb917a1233edf62b1.setContent(html_dfded1ed22b84a519afdd20c25a4cdd0);
+        
+
+        marker_087dc5d7a1ea44b6b49fdbc9f41812f7.bindPopup(popup_bb2e45a673614c4fb917a1233edf62b1)
+        ;
+
+        
+    
+    
+            var marker_edc3f65b008947928fa1f3a6b0069843 = L.marker(
+                [324650.0136, 223005.9479],
+                {}
+            ).addTo(map_85dfc69c58e04b538cd57adf38d6f169);
+        
+    
+        var popup_46d5ce472c78446caf76a40a5e42344b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b930ae8a64cd4331a267df8c161a3bc9 = $(`<div id="html_b930ae8a64cd4331a267df8c161a3bc9" style="width: 100.0%; height: 100.0%;">St Columcille's Hospital</div>`)[0];
+            popup_46d5ce472c78446caf76a40a5e42344b.setContent(html_b930ae8a64cd4331a267df8c161a3bc9);
+        
+
+        marker_edc3f65b008947928fa1f3a6b0069843.bindPopup(popup_46d5ce472c78446caf76a40a5e42344b)
+        ;
+
+        
+    
+    
+            var marker_2b1158d169024056845229e29331eb96 = L.marker(
+                [319049.9696, 231076.2339],
+                {}
+            ).addTo(map_85dfc69c58e04b538cd57adf38d6f169);
+        
+    
+        var popup_40c0867d8f2443d1b76748d9e94afcdf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_94cafd1a1ab04cbe8c54b0f3cceb5646 = $(`<div id="html_94cafd1a1ab04cbe8c54b0f3cceb5646" style="width: 100.0%; height: 100.0%;">St Vincent's University Hospital</div>`)[0];
+            popup_40c0867d8f2443d1b76748d9e94afcdf.setContent(html_94cafd1a1ab04cbe8c54b0f3cceb5646);
+        
+
+        marker_2b1158d169024056845229e29331eb96.bindPopup(popup_40c0867d8f2443d1b76748d9e94afcdf)
+        ;
+
+        
+    
+    
+            var marker_03ecf8a3ae574e49b7842c1c23ecf272 = L.marker(
+                [324095.6746, 228667.4989],
+                {}
+            ).addTo(map_85dfc69c58e04b538cd57adf38d6f169);
+        
+    
+        var popup_c79d3b53ca724d838ebc9dfd56003576 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_07b8476bc6f3419489c4ed35ec00acdb = $(`<div id="html_07b8476bc6f3419489c4ed35ec00acdb" style="width: 100.0%; height: 100.0%;">St Michael's Hospital Dun Laoghaire</div>`)[0];
+            popup_c79d3b53ca724d838ebc9dfd56003576.setContent(html_07b8476bc6f3419489c4ed35ec00acdb);
+        
+
+        marker_03ecf8a3ae574e49b7842c1c23ecf272.bindPopup(popup_c79d3b53ca724d838ebc9dfd56003576)
+        ;
+
+        
+    
+    
+            var marker_77346d32eae64100a28bb7f5b09fe30a = L.marker(
+                [315270.9066, 235749.3699],
+                {}
+            ).addTo(map_85dfc69c58e04b538cd57adf38d6f169);
+        
+    
+        var popup_a30c5bef8ce14d9fbce93428970b4f21 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_43f0fdaaf78e49e78dd0cf69ead9bb76 = $(`<div id="html_43f0fdaaf78e49e78dd0cf69ead9bb76" style="width: 100.0%; height: 100.0%;">Mater Misericordiae Hospital</div>`)[0];
+            popup_a30c5bef8ce14d9fbce93428970b4f21.setContent(html_43f0fdaaf78e49e78dd0cf69ead9bb76);
+        
+
+        marker_77346d32eae64100a28bb7f5b09fe30a.bindPopup(popup_a30c5bef8ce14d9fbce93428970b4f21)
+        ;
+
+        
+    
+    
+            var marker_8c32456f721046f5932e99efda9878aa = L.marker(
+                [219438.4595, 122665.8848],
+                {}
+            ).addTo(map_85dfc69c58e04b538cd57adf38d6f169);
+        
+    
+        var popup_d0454b4d978742afbccdae8e58325954 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8936a5e9ab094651a1e164404174f4d8 = $(`<div id="html_8936a5e9ab094651a1e164404174f4d8" style="width: 100.0%; height: 100.0%;">South Tipperary General Hospital</div>`)[0];
+            popup_d0454b4d978742afbccdae8e58325954.setContent(html_8936a5e9ab094651a1e164404174f4d8);
+        
+
+        marker_8c32456f721046f5932e99efda9878aa.bindPopup(popup_d0454b4d978742afbccdae8e58325954)
+        ;
+
+        
+    
+    
+            var marker_83cbafd0a63041a489fc608c3286cc23 = L.marker(
+                [262910.9695, 111129.5228],
+                {}
+            ).addTo(map_85dfc69c58e04b538cd57adf38d6f169);
+        
+    
+        var popup_b1a73fcf9bdf413abae27cdbf248b686 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b5e1cc70c2543a98b683247b7746d66 = $(`<div id="html_5b5e1cc70c2543a98b683247b7746d66" style="width: 100.0%; height: 100.0%;">University Hospital Waterford</div>`)[0];
+            popup_b1a73fcf9bdf413abae27cdbf248b686.setContent(html_5b5e1cc70c2543a98b683247b7746d66);
+        
+
+        marker_83cbafd0a63041a489fc608c3286cc23.bindPopup(popup_b1a73fcf9bdf413abae27cdbf248b686)
+        ;
+
+        
+    
+    
+            var marker_3153ea6f766c481aae890a290d3c2d09 = L.marker(
+                [99695.28536, 48014.02974],
+                {}
+            ).addTo(map_85dfc69c58e04b538cd57adf38d6f169);
+        
+    
+        var popup_45a48942201f45c5b114e3e5980060ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_136fc819b32043df9b4dbe148e4f8351 = $(`<div id="html_136fc819b32043df9b4dbe148e4f8351" style="width: 100.0%; height: 100.0%;">Bantry General Hospital</div>`)[0];
+            popup_45a48942201f45c5b114e3e5980060ce.setContent(html_136fc819b32043df9b4dbe148e4f8351);
+        
+
+        marker_3153ea6f766c481aae890a290d3c2d09.bindPopup(popup_45a48942201f45c5b114e3e5980060ce)
+        ;
+
+        
+    
+    
+            var marker_e4546b4ec4a243b5a33998fccf7c099c = L.marker(
+                [164819.4034, 70216.09277],
+                {}
+            ).addTo(map_85dfc69c58e04b538cd57adf38d6f169);
+        
+    
+        var popup_17c6d91cfb514e32997763a0657e5ce8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aeedfd352a294b4f9d14f2698c14aacf = $(`<div id="html_aeedfd352a294b4f9d14f2698c14aacf" style="width: 100.0%; height: 100.0%;">Cork University Hospital</div>`)[0];
+            popup_17c6d91cfb514e32997763a0657e5ce8.setContent(html_aeedfd352a294b4f9d14f2698c14aacf);
+        
+
+        marker_e4546b4ec4a243b5a33998fccf7c099c.bindPopup(popup_17c6d91cfb514e32997763a0657e5ce8)
+        ;
+
+        
+    
+    
+            var marker_7421e6fd911749aa93fb8577b47671cd = L.marker(
+                [154551.0944, 100117.7888],
+                {}
+            ).addTo(map_85dfc69c58e04b538cd57adf38d6f169);
+        
+    
+        var popup_22b73e81a9b944f98c296c86545df272 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0acbb6c003b3466c8a9bd8530a5bfb4a = $(`<div id="html_0acbb6c003b3466c8a9bd8530a5bfb4a" style="width: 100.0%; height: 100.0%;">Mallow General Hospital</div>`)[0];
+            popup_22b73e81a9b944f98c296c86545df272.setContent(html_0acbb6c003b3466c8a9bd8530a5bfb4a);
+        
+
+        marker_7421e6fd911749aa93fb8577b47671cd.bindPopup(popup_22b73e81a9b944f98c296c86545df272)
+        ;
+
+        
+    
+    
+            var marker_57a99fd31dee4c79a6baafeb22b8c380 = L.marker(
+                [133732.5354, 178235.0779],
+                {}
+            ).addTo(map_85dfc69c58e04b538cd57adf38d6f169);
+        
+    
+        var popup_70b8ca4828734a37aeb76e1a0a20ecfe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_56bf1ced0df54214bfd520d8902ffa17 = $(`<div id="html_56bf1ced0df54214bfd520d8902ffa17" style="width: 100.0%; height: 100.0%;">Ennis Hospital</div>`)[0];
+            popup_70b8ca4828734a37aeb76e1a0a20ecfe.setContent(html_56bf1ced0df54214bfd520d8902ffa17);
+        
+
+        marker_57a99fd31dee4c79a6baafeb22b8c380.bindPopup(popup_70b8ca4828734a37aeb76e1a0a20ecfe)
+        ;
+
+        
+    
+    
+            var marker_a3a9ab678dea4a87b4402eb694bb5e81 = L.marker(
+                [188388.3285, 263899.813],
+                {}
+            ).addTo(map_85dfc69c58e04b538cd57adf38d6f169);
+        
+    
+        var popup_5a71cc9df9fe48bba25a44d88505aceb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cee687833b7247c2b44133d70f96f2dc = $(`<div id="html_cee687833b7247c2b44133d70f96f2dc" style="width: 100.0%; height: 100.0%;">Roscommon County Hospital</div>`)[0];
+            popup_5a71cc9df9fe48bba25a44d88505aceb.setContent(html_cee687833b7247c2b44133d70f96f2dc);
+        
+
+        marker_a3a9ab678dea4a87b4402eb694bb5e81.bindPopup(popup_5a71cc9df9fe48bba25a44d88505aceb)
+        ;
+
+        
+    
+    
+            var marker_8fe20efe36724c2580b8d7300f155b02 = L.marker(
+                [166764.5734, 71915.37076],
+                {}
+            ).addTo(map_85dfc69c58e04b538cd57adf38d6f169);
+        
+    
+        var popup_a043ecb0985c47dbae0465c80326257b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b3b7af9dff7e41c78e603fa040f5ed53 = $(`<div id="html_b3b7af9dff7e41c78e603fa040f5ed53" style="width: 100.0%; height: 100.0%;">Mercy University Hospital</div>`)[0];
+            popup_a043ecb0985c47dbae0465c80326257b.setContent(html_b3b7af9dff7e41c78e603fa040f5ed53);
+        
+
+        marker_8fe20efe36724c2580b8d7300f155b02.bindPopup(popup_a043ecb0985c47dbae0465c80326257b)
+        ;
+
+        
+    
+    
+            var marker_df4e6d5029044c1686e205bf4c28a07f = L.marker(
+                [187094.4565, 178527.3649],
+                {}
+            ).addTo(map_85dfc69c58e04b538cd57adf38d6f169);
+        
+    
+        var popup_cf95bb166fae44748a66a6421baade27 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f9ccb71d98c14da89ef2a3efd1856f84 = $(`<div id="html_f9ccb71d98c14da89ef2a3efd1856f84" style="width: 100.0%; height: 100.0%;">Nenagh Hospital</div>`)[0];
+            popup_cf95bb166fae44748a66a6421baade27.setContent(html_f9ccb71d98c14da89ef2a3efd1856f84);
+        
+
+        marker_df4e6d5029044c1686e205bf4c28a07f.bindPopup(popup_cf95bb166fae44748a66a6421baade27)
+        ;
+
+        
+    
+    
+            var marker_b99edcaa6e0845f99b088677aa27f5d5 = L.marker(
+                [169786.3464, 336269.7351],
+                {}
+            ).addTo(map_85dfc69c58e04b538cd57adf38d6f169);
+        
+    
+        var popup_984966b800024262aefab9becbd2b300 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_87d1afb574914054abc64bd7ebbde92f = $(`<div id="html_87d1afb574914054abc64bd7ebbde92f" style="width: 100.0%; height: 100.0%;">Sligo Regional Hospital</div>`)[0];
+            popup_984966b800024262aefab9becbd2b300.setContent(html_87d1afb574914054abc64bd7ebbde92f);
+        
+
+        marker_b99edcaa6e0845f99b088677aa27f5d5.bindPopup(popup_984966b800024262aefab9becbd2b300)
+        ;
+
+        
+    
+    
+            var marker_91887d2dee384838948cf03c74f36e77 = L.marker(
+                [128926.2994, 225582.2939],
+                {}
+            ).addTo(map_85dfc69c58e04b538cd57adf38d6f169);
+        
+    
+        var popup_8df44845f0ee4161b95c3515aadbe8a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a0be83a2270e45079e2f1c588bd69101 = $(`<div id="html_a0be83a2270e45079e2f1c588bd69101" style="width: 100.0%; height: 100.0%;">University Hospital Galway</div>`)[0];
+            popup_8df44845f0ee4161b95c3515aadbe8a0.setContent(html_a0be83a2270e45079e2f1c588bd69101);
+        
+
+        marker_91887d2dee384838948cf03c74f36e77.bindPopup(popup_8df44845f0ee4161b95c3515aadbe8a0)
+        ;
+
+        
+    
+    
+            var marker_2f7db7dc296d4aad8dbfdd6ddaf6499b = L.marker(
+                [184339.0425, 230731.3919],
+                {}
+            ).addTo(map_85dfc69c58e04b538cd57adf38d6f169);
+        
+    
+        var popup_d75a00c44a6347bc84a41dabef76b69e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_69ee95db72d441f4b2ace69302a570b3 = $(`<div id="html_69ee95db72d441f4b2ace69302a570b3" style="width: 100.0%; height: 100.0%;">Portiuncula Hospital</div>`)[0];
+            popup_d75a00c44a6347bc84a41dabef76b69e.setContent(html_69ee95db72d441f4b2ace69302a570b3);
+        
+
+        marker_2f7db7dc296d4aad8dbfdd6ddaf6499b.bindPopup(popup_d75a00c44a6347bc84a41dabef76b69e)
+        ;
+
+        
+    
+    
+            var marker_dfe897eb2bf1432981dd0a984e1027ac = L.marker(
+                [168045.1354, 71328.93777],
+                {}
+            ).addTo(map_85dfc69c58e04b538cd57adf38d6f169);
+        
+    
+        var popup_362b313396154f3cbedf93686f26b851 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c857f81bee2b4cd78c4771c8d941a94f = $(`<div id="html_c857f81bee2b4cd78c4771c8d941a94f" style="width: 100.0%; height: 100.0%;">South Infirmary Victoria University Hospital</div>`)[0];
+            popup_362b313396154f3cbedf93686f26b851.setContent(html_c857f81bee2b4cd78c4771c8d941a94f);
+        
+
+        marker_dfe897eb2bf1432981dd0a984e1027ac.bindPopup(popup_362b313396154f3cbedf93686f26b851)
+        ;
+
+        
+    
+    
+            var marker_90ec0609a00143bb85715c7cdfb81ca2 = L.marker(
+                [158298.4279, 157008.8367],
+                {}
+            ).addTo(map_85dfc69c58e04b538cd57adf38d6f169);
+        
+    
+        var popup_7ba9d2c417124ecc87dc9f9b907a8ab2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e8cc2e1d767e434480bdc0a32bc66b90 = $(`<div id="html_e8cc2e1d767e434480bdc0a32bc66b90" style="width: 100.0%; height: 100.0%;">St John's Hospital</div>`)[0];
+            popup_7ba9d2c417124ecc87dc9f9b907a8ab2.setContent(html_e8cc2e1d767e434480bdc0a32bc66b90);
+        
+
+        marker_90ec0609a00143bb85715c7cdfb81ca2.bindPopup(popup_7ba9d2c417124ecc87dc9f9b907a8ab2)
+        ;
+
+        
+    
+    
+            var marker_c55e45f03b4c4247b647b0d58efcb4f4 = L.marker(
+                [216990.1175, 412551.1811],
+                {}
+            ).addTo(map_85dfc69c58e04b538cd57adf38d6f169);
+        
+    
+        var popup_fd2d7413965a421082a469c09d23e066 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_979e0798511c47e6947fa22424035e93 = $(`<div id="html_979e0798511c47e6947fa22424035e93" style="width: 100.0%; height: 100.0%;">Letterkenny University Hospital</div>`)[0];
+            popup_fd2d7413965a421082a469c09d23e066.setContent(html_979e0798511c47e6947fa22424035e93);
+        
+
+        marker_c55e45f03b4c4247b647b0d58efcb4f4.bindPopup(popup_fd2d7413965a421082a469c09d23e066)
+        ;
+
+        
+    
+    
+            var marker_236b299bc06c4049882e2a7c640fd380 = L.marker(
+                [133719.3214, 225686.7119],
+                {}
+            ).addTo(map_85dfc69c58e04b538cd57adf38d6f169);
+        
+    
+        var popup_0097459fcba14454a5c7cc3c5ee86a2c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0789ba86ad5c4aa986efb85f03c6f633 = $(`<div id="html_0789ba86ad5c4aa986efb85f03c6f633" style="width: 100.0%; height: 100.0%;">Merlin Park University Hospital</div>`)[0];
+            popup_0097459fcba14454a5c7cc3c5ee86a2c.setContent(html_0789ba86ad5c4aa986efb85f03c6f633);
+        
+
+        marker_236b299bc06c4049882e2a7c640fd380.bindPopup(popup_0097459fcba14454a5c7cc3c5ee86a2c)
+        ;
+
+        
+    
+    
+            var marker_5fe49d97418a4c9ea2ecdf1241004ab0 = L.marker(
+                [84653.57835, 113945.3278],
+                {}
+            ).addTo(map_85dfc69c58e04b538cd57adf38d6f169);
+        
+    
+        var popup_917e00f8bd7a40e4a867ab8156850774 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77ed931a1c624d82851781a2db90bdec = $(`<div id="html_77ed931a1c624d82851781a2db90bdec" style="width: 100.0%; height: 100.0%;">University Hospital Kerry</div>`)[0];
+            popup_917e00f8bd7a40e4a867ab8156850774.setContent(html_77ed931a1c624d82851781a2db90bdec);
+        
+
+        marker_5fe49d97418a4c9ea2ecdf1241004ab0.bindPopup(popup_917e00f8bd7a40e4a867ab8156850774)
+        ;
+
+        
+    
+    
+            var marker_845b6b53ae4342be9bbc20acc1782061 = L.marker(
+                [155741.1214, 154029.2699],
+                {}
+            ).addTo(map_85dfc69c58e04b538cd57adf38d6f169);
+        
+    
+        var popup_ccdf225758bb43909f93943b3140edcd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_522f84b743764a9ab2456067f4f83906 = $(`<div id="html_522f84b743764a9ab2456067f4f83906" style="width: 100.0%; height: 100.0%;">University Hospital Limerick</div>`)[0];
+            popup_ccdf225758bb43909f93943b3140edcd.setContent(html_522f84b743764a9ab2456067f4f83906);
+        
+
+        marker_845b6b53ae4342be9bbc20acc1782061.bindPopup(popup_ccdf225758bb43909f93943b3140edcd)
+        ;
+
+        
+    
+    
+            var marker_0629dc6f7e3d43919cb53b9f91c97513 = L.marker(
+                [114195.8524, 289970.125],
+                {}
+            ).addTo(map_85dfc69c58e04b538cd57adf38d6f169);
+        
+    
+        var popup_34ac4124579a4bdd96938836420d453e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_446bf8ab6bcf4afd8e37b65ea9bb5549 = $(`<div id="html_446bf8ab6bcf4afd8e37b65ea9bb5549" style="width: 100.0%; height: 100.0%;">Mayo General Hospital</div>`)[0];
+            popup_34ac4124579a4bdd96938836420d453e.setContent(html_446bf8ab6bcf4afd8e37b65ea9bb5549);
+        
+
+        marker_0629dc6f7e3d43919cb53b9f91c97513.bindPopup(popup_34ac4124579a4bdd96938836420d453e)
+        ;
+
+        
+    
+</script>

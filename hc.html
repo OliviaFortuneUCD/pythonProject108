@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e8d18c0100d448559f37f5f1924fcc46 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_e8d18c0100d448559f37f5f1924fcc46" ></div>
+        
+</body>
+<script>    
+    
+            var map_e8d18c0100d448559f37f5f1924fcc46 = L.map(
+                "map_e8d18c0100d448559f37f5f1924fcc46",
+                {
+                    center: [53.43544795402746, -6.2691705331807785],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_e8d18c0100d448559f37f5f1924fcc46);
+
+            
+
+        
+    
+            var tile_layer_ee2de50c313b4bf8818698f76660f936 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e8d18c0100d448559f37f5f1924fcc46);
+        
+    
+            var marker_730f7491adf34181a6026758e8b4db3c = L.marker(
+                [53.6070816624765, -6.17914789030531],
+                {}
+            ).addTo(map_e8d18c0100d448559f37f5f1924fcc46);
+        
+    
+        var popup_26d5b1121f774aa6b0246db800cf6656 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1594e19160fe4e57b04ba96b67567d2a = $(`<div id="html_1594e19160fe4e57b04ba96b67567d2a" style="width: 100.0%; height: 100.0%;">Balbriggan Health Centre</div>`)[0];
+            popup_26d5b1121f774aa6b0246db800cf6656.setContent(html_1594e19160fe4e57b04ba96b67567d2a);
+        
+
+        marker_730f7491adf34181a6026758e8b4db3c.bindPopup(popup_26d5b1121f774aa6b0246db800cf6656)
+        ;
+
+        
+    
+    
+            var marker_1fc70ab5cbe74db483500554c38338e3 = L.marker(
+                [53.518343736284, -6.31786497026097],
+                {}
+            ).addTo(map_e8d18c0100d448559f37f5f1924fcc46);
+        
+    
+        var popup_932774f710984bfeb617148632f1ff49 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d7d3b34fe93141308266efa6c9728dea = $(`<div id="html_d7d3b34fe93141308266efa6c9728dea" style="width: 100.0%; height: 100.0%;">Oldtown Health Centre</div>`)[0];
+            popup_932774f710984bfeb617148632f1ff49.setContent(html_d7d3b34fe93141308266efa6c9728dea);
+        
+
+        marker_1fc70ab5cbe74db483500554c38338e3.bindPopup(popup_932774f710984bfeb617148632f1ff49)
+        ;
+
+        
+    
+    
+            var marker_78332928e73d44b288efa87b672b6e25 = L.marker(
+                [53.5266512075073, -6.16588701726975],
+                {}
+            ).addTo(map_e8d18c0100d448559f37f5f1924fcc46);
+        
+    
+        var popup_b9173a3002bc48e2865d6431f217985e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fac58c6cf0ef488b89aa3b884df11fc7 = $(`<div id="html_fac58c6cf0ef488b89aa3b884df11fc7" style="width: 100.0%; height: 100.0%;">Lusk Health Centre</div>`)[0];
+            popup_b9173a3002bc48e2865d6431f217985e.setContent(html_fac58c6cf0ef488b89aa3b884df11fc7);
+        
+
+        marker_78332928e73d44b288efa87b672b6e25.bindPopup(popup_b9173a3002bc48e2865d6431f217985e)
+        ;
+
+        
+    
+    
+            var marker_472e5d441ecd46ed9f4044fe57dcb51b = L.marker(
+                [53.5216163327515, -6.08802172653303],
+                {}
+            ).addTo(map_e8d18c0100d448559f37f5f1924fcc46);
+        
+    
+        var popup_f5766085ed9e4912ace6e854ed0b7688 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_61a33a3c89564a2c856962b0ca95c803 = $(`<div id="html_61a33a3c89564a2c856962b0ca95c803" style="width: 100.0%; height: 100.0%;">Rush Health Centre</div>`)[0];
+            popup_f5766085ed9e4912ace6e854ed0b7688.setContent(html_61a33a3c89564a2c856962b0ca95c803);
+        
+
+        marker_472e5d441ecd46ed9f4044fe57dcb51b.bindPopup(popup_f5766085ed9e4912ace6e854ed0b7688)
+        ;
+
+        
+    
+    
+            var marker_3946713b2c2c48fe9627c10dea7f750f = L.marker(
+                [53.4856288305022, -6.14738738879614],
+                {}
+            ).addTo(map_e8d18c0100d448559f37f5f1924fcc46);
+        
+    
+        var popup_7628203a5cca4dfcb19c98938d6241e2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3dddb2d1b652463a881eb0f5cb520967 = $(`<div id="html_3dddb2d1b652463a881eb0f5cb520967" style="width: 100.0%; height: 100.0%;">Donabate Health Centre</div>`)[0];
+            popup_7628203a5cca4dfcb19c98938d6241e2.setContent(html_3dddb2d1b652463a881eb0f5cb520967);
+        
+
+        marker_3946713b2c2c48fe9627c10dea7f750f.bindPopup(popup_7628203a5cca4dfcb19c98938d6241e2)
+        ;
+
+        
+    
+    
+            var marker_c46a9d14ab564e539d87b2f4386c2cfb = L.marker(
+                [53.4598336950064, -6.22173807230161],
+                {}
+            ).addTo(map_e8d18c0100d448559f37f5f1924fcc46);
+        
+    
+        var popup_0a05cf68cdcb4e9bacbd26871a1c940c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b29b13f2031420e8e72fdd8c474c778 = $(`<div id="html_5b29b13f2031420e8e72fdd8c474c778" style="width: 100.0%; height: 100.0%;">Swords Health Centre</div>`)[0];
+            popup_0a05cf68cdcb4e9bacbd26871a1c940c.setContent(html_5b29b13f2031420e8e72fdd8c474c778);
+        
+
+        marker_c46a9d14ab564e539d87b2f4386c2cfb.bindPopup(popup_0a05cf68cdcb4e9bacbd26871a1c940c)
+        ;
+
+        
+    
+    
+            var marker_63c01528bc914ca68e702d9acd2c07ef = L.marker(
+                [53.4208793436817, -6.13887167368603],
+                {}
+            ).addTo(map_e8d18c0100d448559f37f5f1924fcc46);
+        
+    
+        var popup_1ccdc10396b948928a42d1268415bf24 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2850106f5082406aaeb2c6b266a711ea = $(`<div id="html_2850106f5082406aaeb2c6b266a711ea" style="width: 100.0%; height: 100.0%;">Portmarnock Health Centre</div>`)[0];
+            popup_1ccdc10396b948928a42d1268415bf24.setContent(html_2850106f5082406aaeb2c6b266a711ea);
+        
+
+        marker_63c01528bc914ca68e702d9acd2c07ef.bindPopup(popup_1ccdc10396b948928a42d1268415bf24)
+        ;
+
+        
+    
+    
+            var marker_beedd4ddb1c549ae81c838efbab70e6d = L.marker(
+                [53.579133730272, -6.11055545882508],
+                {}
+            ).addTo(map_e8d18c0100d448559f37f5f1924fcc46);
+        
+    
+        var popup_2bfdcb2d43ad453ebd6ec41a8652c33d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b187f9c146a40d0b23bc2dba0573d23 = $(`<div id="html_5b187f9c146a40d0b23bc2dba0573d23" style="width: 100.0%; height: 100.0%;">Skerries Health Centre</div>`)[0];
+            popup_2bfdcb2d43ad453ebd6ec41a8652c33d.setContent(html_5b187f9c146a40d0b23bc2dba0573d23);
+        
+
+        marker_beedd4ddb1c549ae81c838efbab70e6d.bindPopup(popup_2bfdcb2d43ad453ebd6ec41a8652c33d)
+        ;
+
+        
+    
+    
+            var marker_6902d26de2054ff3b5c1b2c687ba65d5 = L.marker(
+                [53.4510016583577, -6.15386783556286],
+                {}
+            ).addTo(map_e8d18c0100d448559f37f5f1924fcc46);
+        
+    
+        var popup_e0489c8ed73d43b382ef9d4c8442ee3f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_be1811681fb64c40be5ef9fdd8546205 = $(`<div id="html_be1811681fb64c40be5ef9fdd8546205" style="width: 100.0%; height: 100.0%;">Malahide Health Centre</div>`)[0];
+            popup_e0489c8ed73d43b382ef9d4c8442ee3f.setContent(html_be1811681fb64c40be5ef9fdd8546205);
+        
+
+        marker_6902d26de2054ff3b5c1b2c687ba65d5.bindPopup(popup_e0489c8ed73d43b382ef9d4c8442ee3f)
+        ;
+
+        
+    
+    
+            var marker_392d5580ddd8409695d1b0b966385eea = L.marker(
+                [53.3987842003782, -6.12897324350122],
+                {}
+            ).addTo(map_e8d18c0100d448559f37f5f1924fcc46);
+        
+    
+        var popup_8e9394236d4e401789cf394f73353b78 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae80a1520cbd4b36a3088dbcee09baaf = $(`<div id="html_ae80a1520cbd4b36a3088dbcee09baaf" style="width: 100.0%; height: 100.0%;">Baldoyle Health Centre</div>`)[0];
+            popup_8e9394236d4e401789cf394f73353b78.setContent(html_ae80a1520cbd4b36a3088dbcee09baaf);
+        
+
+        marker_392d5580ddd8409695d1b0b966385eea.bindPopup(popup_8e9394236d4e401789cf394f73353b78)
+        ;
+
+        
+    
+    
+            var marker_6129f1cb028c4b689f3baf3a8722a2f6 = L.marker(
+                [53.3860117570648, -6.0650573975448],
+                {}
+            ).addTo(map_e8d18c0100d448559f37f5f1924fcc46);
+        
+    
+        var popup_a9c80c0a12d545c898096a9b94d56ee6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f1f097f54d14335bd0f37ef0c6d273e = $(`<div id="html_3f1f097f54d14335bd0f37ef0c6d273e" style="width: 100.0%; height: 100.0%;">Howth Health Centre</div>`)[0];
+            popup_a9c80c0a12d545c898096a9b94d56ee6.setContent(html_3f1f097f54d14335bd0f37ef0c6d273e);
+        
+
+        marker_6129f1cb028c4b689f3baf3a8722a2f6.bindPopup(popup_a9c80c0a12d545c898096a9b94d56ee6)
+        ;
+
+        
+    
+    
+            var marker_c45e2b5a64114ac593480803c450efce = L.marker(
+                [53.3975843112064, -6.37636466093761],
+                {}
+            ).addTo(map_e8d18c0100d448559f37f5f1924fcc46);
+        
+    
+        var popup_aa93761c6c9147199b6e63c41e590ef4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_490ed4499088416da3fdbe58417777a3 = $(`<div id="html_490ed4499088416da3fdbe58417777a3" style="width: 100.0%; height: 100.0%;">Corduff Health Centre</div>`)[0];
+            popup_aa93761c6c9147199b6e63c41e590ef4.setContent(html_490ed4499088416da3fdbe58417777a3);
+        
+
+        marker_c45e2b5a64114ac593480803c450efce.bindPopup(popup_aa93761c6c9147199b6e63c41e590ef4)
+        ;
+
+        
+    
+    
+            var marker_50b6b76aee064521b98f558765e9bd8e = L.marker(
+                [53.3842732608505, -6.38230912071703],
+                {}
+            ).addTo(map_e8d18c0100d448559f37f5f1924fcc46);
+        
+    
+        var popup_d01ef1482f7c4023be887f4ceeadb9f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dfd23176662c419fab313e224c09b676 = $(`<div id="html_dfd23176662c419fab313e224c09b676" style="width: 100.0%; height: 100.0%;">Roselawn Health Centre</div>`)[0];
+            popup_d01ef1482f7c4023be887f4ceeadb9f3.setContent(html_dfd23176662c419fab313e224c09b676);
+        
+
+        marker_50b6b76aee064521b98f558765e9bd8e.bindPopup(popup_d01ef1482f7c4023be887f4ceeadb9f3)
+        ;
+
+        
+    
+    
+            var marker_54f8ba0b2a38438aa984e78a8c12c4e6 = L.marker(
+                [53.3923895984864, -6.42108451513161],
+                {}
+            ).addTo(map_e8d18c0100d448559f37f5f1924fcc46);
+        
+    
+        var popup_d789adeb12a74c15ac21f65fe031c4b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd5f549f6cb5414f9b51bad1b7d22a91 = $(`<div id="html_bd5f549f6cb5414f9b51bad1b7d22a91" style="width: 100.0%; height: 100.0%;">Hartstown Health Centre</div>`)[0];
+            popup_d789adeb12a74c15ac21f65fe031c4b3.setContent(html_bd5f549f6cb5414f9b51bad1b7d22a91);
+        
+
+        marker_54f8ba0b2a38438aa984e78a8c12c4e6.bindPopup(popup_d789adeb12a74c15ac21f65fe031c4b3)
+        ;
+
+        
+    
+    
+            var marker_60d0478b28cc4396847999141250e6f2 = L.marker(
+                [53.3893005729816, -6.40851387351025],
+                {}
+            ).addTo(map_e8d18c0100d448559f37f5f1924fcc46);
+        
+    
+        var popup_7084d5da074d4c018f48daf7dfc1dc62 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b0c9786d99cd4f5d92f584aa26e798e8 = $(`<div id="html_b0c9786d99cd4f5d92f584aa26e798e8" style="width: 100.0%; height: 100.0%;">Mountview Health Centre</div>`)[0];
+            popup_7084d5da074d4c018f48daf7dfc1dc62.setContent(html_b0c9786d99cd4f5d92f584aa26e798e8);
+        
+
+        marker_60d0478b28cc4396847999141250e6f2.bindPopup(popup_7084d5da074d4c018f48daf7dfc1dc62)
+        ;
+
+        
+    
+    
+            var marker_f2035b2e60bb4527a692509eb574628d = L.marker(
+                [53.410357896662, -6.40894143574284],
+                {}
+            ).addTo(map_e8d18c0100d448559f37f5f1924fcc46);
+        
+    
+        var popup_0d7bac287f5a4e39b3ef68825b3896bd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_be5331ec1ac642cb8a2c1862feba98ec = $(`<div id="html_be5331ec1ac642cb8a2c1862feba98ec" style="width: 100.0%; height: 100.0%;">Damastown Health Centre</div>`)[0];
+            popup_0d7bac287f5a4e39b3ef68825b3896bd.setContent(html_be5331ec1ac642cb8a2c1862feba98ec);
+        
+
+        marker_f2035b2e60bb4527a692509eb574628d.bindPopup(popup_0d7bac287f5a4e39b3ef68825b3896bd)
+        ;
+
+        
+    
+    
+            var marker_3e09b0214ec646cba2186ff7d1b61fe0 = L.marker(
+                [53.5139172873289, -6.40266041768123],
+                {}
+            ).addTo(map_e8d18c0100d448559f37f5f1924fcc46);
+        
+    
+        var popup_ce8e634a6cb045c4b1e3d9249f865b85 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fcd5eda11c9346788b0d89dd28760fca = $(`<div id="html_fcd5eda11c9346788b0d89dd28760fca" style="width: 100.0%; height: 100.0%;">Ashbourne Health Centre</div>`)[0];
+            popup_ce8e634a6cb045c4b1e3d9249f865b85.setContent(html_fcd5eda11c9346788b0d89dd28760fca);
+        
+
+        marker_3e09b0214ec646cba2186ff7d1b61fe0.bindPopup(popup_ce8e634a6cb045c4b1e3d9249f865b85)
+        ;
+
+        
+    
+    
+            var marker_b15cb2bdd6f44ce89319fbd9b79b4c9e = L.marker(
+                [53.416269478796, -6.47232190726006],
+                {}
+            ).addTo(map_e8d18c0100d448559f37f5f1924fcc46);
+        
+    
+        var popup_6156b6b77d2b4268b96a9f5e9370d353 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f044e81db6dd4a1a8c1f2b1b5a453c3c = $(`<div id="html_f044e81db6dd4a1a8c1f2b1b5a453c3c" style="width: 100.0%; height: 100.0%;">Dunboyne Health Centre</div>`)[0];
+            popup_6156b6b77d2b4268b96a9f5e9370d353.setContent(html_f044e81db6dd4a1a8c1f2b1b5a453c3c);
+        
+
+        marker_b15cb2bdd6f44ce89319fbd9b79b4c9e.bindPopup(popup_6156b6b77d2b4268b96a9f5e9370d353)
+        ;
+
+        
+    
+    
+            var marker_a8e3c87ead044a1985f41d3d49068f71 = L.marker(
+                [53.3636654612126, -6.48992446656295],
+                {}
+            ).addTo(map_e8d18c0100d448559f37f5f1924fcc46);
+        
+    
+        var popup_51601747ab2448b6a3ce26644f0f2721 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea203b4b360443af9e05d9b8e56f3777 = $(`<div id="html_ea203b4b360443af9e05d9b8e56f3777" style="width: 100.0%; height: 100.0%;">Leixlip Health Centre</div>`)[0];
+            popup_51601747ab2448b6a3ce26644f0f2721.setContent(html_ea203b4b360443af9e05d9b8e56f3777);
+        
+
+        marker_a8e3c87ead044a1985f41d3d49068f71.bindPopup(popup_51601747ab2448b6a3ce26644f0f2721)
+        ;
+
+        
+    
+    
+            var marker_b43598ef7c79428b956982828ff11ac5 = L.marker(
+                [53.3568187934291, -6.44820116573448],
+                {}
+            ).addTo(map_e8d18c0100d448559f37f5f1924fcc46);
+        
+    
+        var popup_cc30fd639f1f40b2a8c0838901bfe209 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2ec6eb10016040139bb87ceb8ef93016 = $(`<div id="html_2ec6eb10016040139bb87ceb8ef93016" style="width: 100.0%; height: 100.0%;">Lucan Health Centre</div>`)[0];
+            popup_cc30fd639f1f40b2a8c0838901bfe209.setContent(html_2ec6eb10016040139bb87ceb8ef93016);
+        
+
+        marker_b43598ef7c79428b956982828ff11ac5.bindPopup(popup_cc30fd639f1f40b2a8c0838901bfe209)
+        ;
+
+        
+    
+    
+            var marker_a28926e3a50741d2986c0a03e6ab1634 = L.marker(
+                [53.3853626110425, -6.31136194942285],
+                {}
+            ).addTo(map_e8d18c0100d448559f37f5f1924fcc46);
+        
+    
+        var popup_1a65104c6401438cbec5f6e129f99d37 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f5812e674b8c4296894248c13b349d34 = $(`<div id="html_f5812e674b8c4296894248c13b349d34" style="width: 100.0%; height: 100.0%;">Wellmount Health Centre</div>`)[0];
+            popup_1a65104c6401438cbec5f6e129f99d37.setContent(html_f5812e674b8c4296894248c13b349d34);
+        
+
+        marker_a28926e3a50741d2986c0a03e6ab1634.bindPopup(popup_1a65104c6401438cbec5f6e129f99d37)
+        ;
+
+        
+    
+    
+            var marker_f59edb00915345859a85b20da9e208a9 = L.marker(
+                [53.3901927947785, -6.29634840344212],
+                {}
+            ).addTo(map_e8d18c0100d448559f37f5f1924fcc46);
+        
+    
+        var popup_fbeeb1d3cbcf471ca1b1e3c2390bb687 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c6f28a0761994477aad28b5eb3d4ecd6 = $(`<div id="html_c6f28a0761994477aad28b5eb3d4ecd6" style="width: 100.0%; height: 100.0%;">Ballygall Health Centre</div>`)[0];
+            popup_fbeeb1d3cbcf471ca1b1e3c2390bb687.setContent(html_c6f28a0761994477aad28b5eb3d4ecd6);
+        
+
+        marker_f59edb00915345859a85b20da9e208a9.bindPopup(popup_fbeeb1d3cbcf471ca1b1e3c2390bb687)
+        ;
+
+        
+    
+    
+            var marker_b343147c44ca4398a7f7638fa24578c6 = L.marker(
+                [53.3955275266125, -6.2635216607018],
+                {}
+            ).addTo(map_e8d18c0100d448559f37f5f1924fcc46);
+        
+    
+        var popup_18642dd83e484088a6cdd32dd1fb3606 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b8747f9743044ecbb858b96ff79ef9c9 = $(`<div id="html_b8747f9743044ecbb858b96ff79ef9c9" style="width: 100.0%; height: 100.0%;">Ballymun Health Centre</div>`)[0];
+            popup_18642dd83e484088a6cdd32dd1fb3606.setContent(html_b8747f9743044ecbb858b96ff79ef9c9);
+        
+
+        marker_b343147c44ca4398a7f7638fa24578c6.bindPopup(popup_18642dd83e484088a6cdd32dd1fb3606)
+        ;
+
+        
+    
+    
+            var marker_cf3c64f1ae254a1fbffaf57daf31f155 = L.marker(
+                [53.4013520275723, -6.19395559162637],
+                {}
+            ).addTo(map_e8d18c0100d448559f37f5f1924fcc46);
+        
+    
+        var popup_09fb1dc9a8294af59e6eae16c050097a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c875988903e648bcb12ae7365641d82f = $(`<div id="html_c875988903e648bcb12ae7365641d82f" style="width: 100.0%; height: 100.0%;">Darndale Health Centre</div>`)[0];
+            popup_09fb1dc9a8294af59e6eae16c050097a.setContent(html_c875988903e648bcb12ae7365641d82f);
+        
+
+        marker_cf3c64f1ae254a1fbffaf57daf31f155.bindPopup(popup_09fb1dc9a8294af59e6eae16c050097a)
+        ;
+
+        
+    
+    
+            var marker_e4f248a5f894464b938033ca5db8803e = L.marker(
+                [53.3849029970605, -6.15523944359825],
+                {}
+            ).addTo(map_e8d18c0100d448559f37f5f1924fcc46);
+        
+    
+        var popup_288a9c75812442ee99204dd7f33f8c33 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a4f5630c8f4446869bad4b173d0f34ed = $(`<div id="html_a4f5630c8f4446869bad4b173d0f34ed" style="width: 100.0%; height: 100.0%;">Kilbarrack Health Centre</div>`)[0];
+            popup_288a9c75812442ee99204dd7f33f8c33.setContent(html_a4f5630c8f4446869bad4b173d0f34ed);
+        
+
+        marker_e4f248a5f894464b938033ca5db8803e.bindPopup(popup_288a9c75812442ee99204dd7f33f8c33)
+        ;
+
+        
+    
+    
+            var marker_6469161eb5444cd4b8b9d9d513f12d77 = L.marker(
+                [53.384766032412, -6.25031257604399],
+                {}
+            ).addTo(map_e8d18c0100d448559f37f5f1924fcc46);
+        
+    
+        var popup_77d98fa9316046d79af581e9888773ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a98a55b8793a45c8981e416959eb4700 = $(`<div id="html_a98a55b8793a45c8981e416959eb4700" style="width: 100.0%; height: 100.0%;">Larkhill Health Centre</div>`)[0];
+            popup_77d98fa9316046d79af581e9888773ea.setContent(html_a98a55b8793a45c8981e416959eb4700);
+        
+
+        marker_6469161eb5444cd4b8b9d9d513f12d77.bindPopup(popup_77d98fa9316046d79af581e9888773ea)
+        ;
+
+        
+    
+</script>
